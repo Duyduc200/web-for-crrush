@@ -108,7 +108,6 @@ $(document).ready(function () {
 
   // show popup
   $("#yes").click(function () {
-    $("#bg").css("background-image", "url(img/img.jpg)");
     var audio = new Audio("sound/Anh-La-Cua-Em-Karik.mp3");
     audio.play();
     Swal.fire({
